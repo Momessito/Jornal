@@ -1,0 +1,68 @@
+@media screen and (min-width:1024px) and (max-width:1640px){
+
+    .parent {
+        margin-top: 10% ;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 5px;
+        position: absolute;
+        margin-left: 45%;
+        transform: translate(-55%);
+        }
+        div.widget
+{
+  top: 65px;
+  position: absolute;
+  width: 155px;
+  height: 145px;
+  margin: 150px auto;
+  background-color: #c3c7ff;
+  border-radius: 9px;
+  padding: 25px;
+  margin-top: 25%;
+  box-shadow: 0px 31px 35px -26px #080c21;
+  margin-left: 80%;
+}
+#MenuLado{
+    background-color: white;
+    height: 1000px;
+    width: 300px;
+    margin-top:-60px;
+    position: fixed;
+    z-index: 999;
+    border-right:2px solid #182872 ;
+    border-bottom:2px solid #182872 ;
+    display: none;
+    -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.search{
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  right: 208px;
+  top: 15px;
+  border-radius: 10px;
+  transition: 0.9s;
+  background-color: #1d1d99;
+  border: none;
+  color: #1d1d99;
+  outline: none;
+  font-style: italic;
+  font-family: Arial;
+  float: left;
+  text-align: center;
+}
+.image1{
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(36%) saturate(28%) hue-rotate(69deg) brightness(107%) contrast(100%);
+  margin-left: 81.3%;
+  transform: translate(-10%);
+  margin-top:-0.9%;
+  position: absolute;
+  opacity: 0.8;
+  }
+}
