@@ -6,6 +6,7 @@ html,body{
       padding: 0px;
       background: rgb(214,214,214);
 background: linear-gradient(180deg, rgba(214,214,214,1) 0%, rgba(240,240,240,1) 15%);
+background-repeat:no-repeat;
 }
 *::-webkit-scrollbar {
   width: 10px;
