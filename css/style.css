@@ -4,7 +4,8 @@ html,body{
       height: 70%;
       margin:0px;
       padding: 0px;
-      background-color: rgb(231, 231, 231);
+      background: rgb(214,214,214);
+background: linear-gradient(90deg, rgba(214,214,214,1) 0%, rgba(240,240,240,1) 15%);
 }
 *::-webkit-scrollbar {
   width: 10px;
