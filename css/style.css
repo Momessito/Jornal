@@ -160,6 +160,7 @@ div[a]{
     margin-top: 15px;
     margin-left: 80%;
     position: absolute;
+      border:none;
   }
 .search:focus{
     width: 200px;
